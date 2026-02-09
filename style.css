@@ -1,0 +1,78 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #0f0f0f;
+    color: #eaeaea;
+    line-height: 1.6;
+}
+
+.hero {
+    height: 60vh;
+    background: url("assets/roblox_bg1.png") center/cover no-repeat;
+    position: relative;
+}
+
+.overlay {
+    background: rgba(0,0,0,0.65);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+section {
+    padding: 60px 15%;
+}
+
+.skills ul {
+    list-style: square;
+    margin-left: 20px;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.project {
+    background: #181818;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.project img {
+    width: 100%;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+.logos {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.logos img {
+    height: 60px;
+}
+
+footer {
+    background: #080808;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+}
