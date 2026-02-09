@@ -1,5 +1,5 @@
 
-# Luau Developer Portfolio
+# Luau Developer
 
 This repository hosts my GitHub Pages portfolio.
 
@@ -7,17 +7,8 @@ This repository hosts my GitHub Pages portfolio.
 Full‑stack Luau developer with experience in:
 - Roblox UI systems
 - Core gameplay logic
-- Modular architecture
-- JavaScript integrations
+- Modular architecture and OOP
+- JavaScript and HTTP integrations
+- Clean, understandable and commented code
 
-## Deployment
-This site is deployed using **GitHub Pages**.
-
-Steps:
-1. Push repository to GitHub
-2. Go to Settings → Pages
-3. Select branch: main / root
-4. Save
-
-## Customization
-Replace images inside `/assets` with your own project screenshots.
+with and experience of 1.5 years
