@@ -26,7 +26,6 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 15px 5%;
-    backdrop-filter: blur(6px);
 }
 
 .brand {
@@ -41,7 +40,6 @@ body {
     text-decoration: none;
     font-size: 0.95rem;
     opacity: 0.85;
-    text-decoration: none;
 }
 
 .nav-links a:hover {
@@ -53,7 +51,6 @@ body {
 .hero {
     height: 40vh;
     background: url("assets/roblox_bg1.png") center / cover no-repeat;
-    position: relative;
 }
 
 .overlay {
@@ -86,58 +83,11 @@ section {
     max-width: 600px;
 }
 
-/* Skill Logos */
+/* Skill Logos — SHARP + BIG */
 
 .skill-logos {
     position: absolute;
-    top: 70px;
-    right: 30%;
+    top: 65px;
+    right: 28%;
     display: flex;
-    gap: 25px;
-}
-
-.skill-logos .logo {
-    width: 100px;
-    height: 100px;
-    background: #141414;
-    padding: 15px;
-    border-radius: 14px;
-    object-fit: contain;
-}
-
-.skill-logos .luau {
-    transform: rotate(-10deg);
-}
-
-.skill-logos .js {
-    transform: rotate(8deg);
-}
-
-/* Projects */
-
-.projects {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 30px;
-}
-
-.project {
-    background: #181818;
-    padding: 20px;
-    border-radius: 8px;
-}
-
-.project img {
-    width: 100%;
-    border-radius: 6px;
-    margin-bottom: 10px;
-}
-
-/* Footer */
-
-footer {
-    background: #080808;
-    text-align: center;
-    padding: 20px;
-    font-size: 0.9rem;
-}
+    gap: 3
