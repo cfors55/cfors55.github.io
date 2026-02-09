@@ -13,7 +13,7 @@ body {
 }
 
 .hero {
-    height: 60vh;
+    height: 40vh;
     background: url("assets/roblox_bg1.png") center/cover no-repeat;
     position: relative;
 }
