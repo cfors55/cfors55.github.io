@@ -21,7 +21,7 @@ body {
     position: sticky;
     top: 0;
     z-index: 100;
-    background: rgba(8, 8, 8, 0.9);
+    background: rgba(8, 8, 8, 0.95);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -73,6 +73,12 @@ section {
     padding: 60px 15%;
 }
 
+h2 {
+    margin-bottom: 30px;
+}
+
+/* Skills */
+
 .skills {
     position: relative;
 }
@@ -83,14 +89,14 @@ section {
     max-width: 600px;
 }
 
-/* Skill Logos — SHARP + BIG */
+/* Skill Logos */
 
 .skill-logos {
     position: absolute;
-    top: 65px;
+    top: 70px;
     right: 28%;
     display: flex;
-    gap: 30px;
+    gap: 40px;
 }
 
 .skill-logos img {
@@ -103,8 +109,6 @@ section {
     box-shadow: none;
 }
 
-/* slight tilt only */
-
 .skill-logos .luau {
     transform: rotate(-8deg);
 }
@@ -115,7 +119,7 @@ section {
 
 /* Projects */
 
-.projects {
+.projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 30px;
