@@ -93,14 +93,14 @@ h2 {
 
 .skill-logos {
     position: absolute;
-    top: 70px;
-    right: 28%;
+    top: 100px;
+    right: 13%;
     display: flex;
-    gap: 40px;
+    gap: 80px;
 }
 
 .skill-logos img {
-    width: 140px;
+    width: 200px;
     height: auto;
     background: none;
     padding: 0;
@@ -108,6 +108,15 @@ h2 {
     outline: none;
     box-shadow: none;
 }
+
+.logo:first-child {
+    transform: rotate(-8deg);
+}
+
+.logo:last-child {
+    transform: rotate(8deg);
+}
+
 
 .skill-logos .luau {
     transform: rotate(-8deg);
