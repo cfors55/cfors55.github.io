@@ -2,88 +2,219 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Luau Developer Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Luau Full Stack Developer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #0b0f14;
+            color: #ffffff;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        section {
+            padding: 80px 15%;
+        }
+
+        h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            font-size: 32px;
+            margin-bottom: 40px;
+        }
+
+        p {
+            line-height: 1.6;
+            color: #cfcfcf;
+        }
+
+        /* HERO */
+
+        .hero {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            min-height: 80vh;
+        }
+
+        .hero-text {
+            max-width: 600px;
+        }
+
+        .hero-images {
+            display: flex;
+            gap: 40px;
+            align-items: center;
+        }
+
+        .hero-images img {
+            width: 180px;
+            height: auto;
+            border-radius: 0;
+            outline: none;
+        }
+
+        /* ABOUT */
+
+        .about ul {
+            margin-top: 20px;
+            padding-left: 20px;
+        }
+
+        .about li {
+            margin-bottom: 8px;
+        }
+
+        /* PROJECTS */
+
+        .projects {
+            padding-top: 40px;
+        }
+
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 40px;
+        }
+
+        .project {
+            background-color: #11161d;
+            padding: 20px;
+        }
+
+        .project img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            margin-bottom: 20px;
+            border-radius: 0;
+            outline: none;
+        }
+
+        .project h3 {
+            margin-bottom: 10px;
+        }
+
+        .project p {
+            font-size: 14px;
+        }
+
+        /* FOOTER */
+
+        footer {
+            text-align: center;
+            padding: 40px 0;
+            color: #777;
+        }
+
+        /* RESPONSIVE */
+
+        @media (max-width: 900px) {
+            .hero {
+                flex-direction: column;
+                gap: 40px;
+                text-align: center;
+            }
+
+            .hero-images {
+                justify-content: center;
+            }
+        }
+    </style>
 </head>
 <body>
 
-    <nav class="topbar">
-        <div class="brand">CFORS55</div>
-        <div class="nav-links">
-            <a href="#skills">Skills</a>
-            <a href="#projects">Projects</a>
+    <!-- HERO -->
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Full Stack Luau Developer</h1>
+            <p>
+                1.5 years of experience building scalable UI systems, game mechanics,
+                OOP-based architectures, and modular frameworks inside Roblox.
+            </p>
         </div>
-    </nav>
 
-    <header class="hero">
-        <div class="overlay">
-            <h1>Full-Stack Luau Developer</h1>
-            <p>Roblox UI & Core Systems Developer</p>
+        <div class="hero-images">
+            <img src="images/luau.png" alt="Luau Logo">
+            <img src="images/js.png" alt="JavaScript Logo">
         </div>
-    </header>
-
-    <section class="about">
-        <h2>About Me</h2>
-        <p>
-            I am a full-stack Luau developer with 1.5 years of experience building
-            scalable UI systems and core gameplay logic on Roblox.
-            I specialize in clean architecture, modular systems, and maintainable codebases.
-        </p>
     </section>
 
-    <section class="skills" id="skills">
-        <h2>Skills</h2>
-
-        <div class="skill-logos">
-            <img src="assets/luau.png" class="logo luau">
-            <img src="assets/js.png" class="logo js">
-        </div>
+    <!-- ABOUT -->
+    <section class="about">
+        <h2>What I Do</h2>
 
         <ul>
-            <li>Luau</li>
-            <li>OOP and Module Scripts</li>
-            <li>Server-Checked Responsive and Animated UI Systems</li>
-            <li>Core Game Systems (Data, Permissions, Gameplay)</li>
-            <li>Discord.js and Noblox.js</li>
+            <li>UI & Core System Development</li>
+            <li>Object-Oriented Programming</li>
+            <li>ModuleScript Architecture</li>
             <li>Dependency Management</li>
-            <li>Reusable, Clean, Commented Code</li>
+            <li>Clean & Documented Code</li>
+            <li>Discord.js & Noblox.js Integration</li>
         </ul>
     </section>
 
-    <section class="projects" id="projects">
+    <!-- PROJECTS -->
+    <section class="projects">
         <h2>Projects</h2>
 
         <div class="projects-grid">
 
             <div class="project">
-                <img src="assets/project1.png">
-                <h3>Project One</h3>
-                <p>UI-focused Roblox system with modular logic and clean separation.</p>
+                <img src="images/project1.png" alt="Project 1">
+                <h3>Advanced UI Framework</h3>
+                <p>
+                    Modular UI framework using OOP principles and reusable components.
+                    Designed for scalability and clean separation of logic.
+                </p>
             </div>
 
             <div class="project">
-                <img src="assets/project2.png">
-                <h3>Project Two</h3>
-                <p>Core gameplay system built using OOP and reusable modules.</p>
+                <img src="images/project2.png" alt="Project 2">
+                <h3>Core Game System</h3>
+                <p>
+                    Structured gameplay system using ModuleScripts and service-based
+                    architecture for maintainability.
+                </p>
             </div>
 
             <div class="project">
-                <img src="assets/project3.png">
-                <h3>Project Three</h3>
-                <p>Roblox-Discord integration using JavaScript and Luau.</p>
+                <img src="images/project3.png" alt="Project 3">
+                <h3>Discord Moderation Bot</h3>
+                <p>
+                    Roblox-integrated Discord bot using Discord.js and Noblox.js
+                    for automated moderation and data syncing.
+                </p>
             </div>
 
             <div class="project">
-                <img src="assets/project4.png">
-                <h3>Project Four</h3>
-                <p>Advanced UI flow system prepared for live-service updates.</p>
+                <img src="images/project4.png" alt="Project 4">
+                <h3>Reusable System Library</h3>
+                <p>
+                    Collection of reusable backend systems including state handling,
+                    event management, and modular service loaders.
+                </p>
             </div>
 
         </div>
     </section>
 
     <footer>
-        <p>© 2026 CFORS55</p>
+        © 2026 Luau Developer Portfolio
     </footer>
 
 </body>
